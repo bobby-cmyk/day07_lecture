@@ -1,0 +1,78 @@
+h1, h2, h3 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+h1 {
+    color: #1A1F71;
+    font-style:italic;
+}
+
+h2{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #1A1F71;
+    font-size: small;
+}
+
+header p {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+nav a {
+    color: #1A1F71;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+nav {
+    width: auto;
+    height: 30px;
+    background-color: #F7B600;
+    padding: 20px 5px 5px 10px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* this is to be applied to a class if theres a header class*/
+.header {
+    width: auto;
+    height: auto;
+}
+
+footer {
+    width: auto;
+    background-color: #1A1F71;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+.topbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    float: left;
+    width: 24%;
+    border: 2px solid #F7B600;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body {
+    width:auto;
+}
